@@ -1,0 +1,38 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-image: url("http://netdna.webdesignerdepot.com/uploads/2012/10/featured47@wdd2x.jpg")
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.customer-note {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#customerListDiv ul {
+list-style-type: none;
+}
+
+#customerListDiv li {
+    padding: 1em;
+    border-width: 1px;
+    border : darkslategray;
+    border-style: solid;
+    margin: 0.1em;
+    border-radius: 5px;
+    background-color:azure;
+}
